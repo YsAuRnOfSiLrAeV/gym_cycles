@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Titillium Web", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+.font-roboto {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+.font-opensans {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif !important;
+}
+
+@keyframes brownGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.logo-brown-anim {
+  background: linear-gradient(270deg, #6a4133, #4E342E, #8B5E3C);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: brownGradient 3s ease infinite;
+  transition: transform 0.3s ease;
+}
+
+.logo-brown-anim:hover {
+  transform: scale(1.05);
+}
