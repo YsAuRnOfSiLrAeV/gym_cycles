@@ -203,7 +203,7 @@ export default function Profile() {
                 <div className="w-full">
                     <div className="flex flex-row items-center gap-4 mb-6 lg:hidden">
                         <img
-                            src="author.jpg"
+                            src="proficon.png"
                             alt="Profile photo"
                             className="w-28 h-28 object-cover rounded-full shadow"
                         />
@@ -214,7 +214,7 @@ export default function Profile() {
                     </div>
                     <div className="hidden lg:flex flex-row items-center gap-6 mb-8">
                         <img
-                            src="author.jpg"
+                            src="proficon.png"
                             alt="Profile photo"
                             className="w-[200px] h-[200px] object-cover rounded-full shadow"
                         />
